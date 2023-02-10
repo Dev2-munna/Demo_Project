@@ -1,0 +1,19 @@
+.header{
+    text-align: center;
+    margin: 5rem;
+    color: brown;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: lightgray;
+    border: none;
+    text-align: center;
+  }
+  
